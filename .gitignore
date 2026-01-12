@@ -1,0 +1,54 @@
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+myenv/
+.env/
+.venv/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings (optional but recommended)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Vector stores / embeddings / indexes (VERY IMPORTANT for RAG)
+data/chroma/
+data/faiss/
+data/index/
+data/embeddings/
+*.db
+*.sqlite
+
+# Model cache (HuggingFace / LangChain)
+.cache/
+huggingface/
+transformers/
+
+# Secrets / API keys
+*.key
+*.pem
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
